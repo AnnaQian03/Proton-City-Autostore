@@ -235,7 +235,7 @@
         169/+D+gwOQwETdWTwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="Button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="BTNfrmconfig.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAOoAAACGCAYAAADTohZvAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAGftJREFUeF7tnLGOpUtShOcxeA/egafgGeAFsHCQsBBYWBgIa3EQGEg4CGMdwNtF
@@ -352,7 +352,7 @@
         169/+D+gwOQwETdWTwAAAABJRU5ErkJggg==
 </value>
   </data>
-  <data name="Button3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="BTNexit.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAOoAAACGCAYAAADTohZvAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAS
         dAAAEnQB3mYfeAAAGftJREFUeF7tnLGOpUtShOcxeA/egafgGeAFsHCQsBBYWBgIa3EQGEg4CGMdwNtF

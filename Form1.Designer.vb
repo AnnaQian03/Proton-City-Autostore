@@ -26,8 +26,8 @@ Partial Class Form1
         Me.TextBox1 = New System.Windows.Forms.TextBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
+        Me.BTNfrmconfig = New System.Windows.Forms.Button()
+        Me.BTNexit = New System.Windows.Forms.Button()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
@@ -64,25 +64,25 @@ Partial Class Form1
         Me.Button1.Text = "Button1"
         Me.Button1.UseVisualStyleBackColor = True
         '
-        'Button2
+        'BTNfrmconfig
         '
-        Me.Button2.Image = CType(resources.GetObject("Button2.Image"), System.Drawing.Image)
-        Me.Button2.Location = New System.Drawing.Point(662, 277)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(234, 134)
-        Me.Button2.TabIndex = 3
-        Me.Button2.Text = "Button2"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.BTNfrmconfig.Image = CType(resources.GetObject("BTNfrmconfig.Image"), System.Drawing.Image)
+        Me.BTNfrmconfig.Location = New System.Drawing.Point(662, 277)
+        Me.BTNfrmconfig.Name = "BTNfrmconfig"
+        Me.BTNfrmconfig.Size = New System.Drawing.Size(234, 134)
+        Me.BTNfrmconfig.TabIndex = 3
+        Me.BTNfrmconfig.Text = "Show config"
+        Me.BTNfrmconfig.UseVisualStyleBackColor = True
         '
-        'Button3
+        'BTNexit
         '
-        Me.Button3.Image = CType(resources.GetObject("Button3.Image"), System.Drawing.Image)
-        Me.Button3.Location = New System.Drawing.Point(1086, 277)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(234, 134)
-        Me.Button3.TabIndex = 4
-        Me.Button3.Text = "Button3"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.BTNexit.Image = CType(resources.GetObject("BTNexit.Image"), System.Drawing.Image)
+        Me.BTNexit.Location = New System.Drawing.Point(1086, 277)
+        Me.BTNexit.Name = "BTNexit"
+        Me.BTNexit.Size = New System.Drawing.Size(234, 134)
+        Me.BTNexit.TabIndex = 4
+        Me.BTNexit.Text = "Exit"
+        Me.BTNexit.UseVisualStyleBackColor = True
         '
         'Button4
         '
@@ -152,8 +152,8 @@ Partial Class Form1
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.BTNexit)
+        Me.Controls.Add(Me.BTNfrmconfig)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.TextBox1)
@@ -168,8 +168,8 @@ Partial Class Form1
     Friend WithEvents TextBox1 As TextBox
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button3 As Button
+    Friend WithEvents BTNfrmconfig As Button
+    Friend WithEvents BTNexit As Button
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
     Friend WithEvents Button6 As Button
